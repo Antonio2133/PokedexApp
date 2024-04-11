@@ -1,0 +1,24 @@
+.form_container {
+  height: 2em;
+  margin-bottom: 2em;
+}
+
+.form_input {
+  height: 2em;
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 10px 0 0 10px;
+}
+
+.form_btn {
+  height: 2.5em;
+  border-radius: 0 10px 10px 0;
+  font-weight: 700;
+  background-color: rgba(206, 6, 6, 0.842);
+  color: white;
+  &:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+  }
+}

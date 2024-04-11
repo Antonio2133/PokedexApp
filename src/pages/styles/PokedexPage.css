@@ -1,0 +1,37 @@
+p {
+  color: black;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.pokedex_trainer {
+  color: red;
+  font-size: 1em;
+  font-style: italic;
+
+}
+
+.pokedex_nav_image {
+  height: auto;
+  width: auto;
+  margin-bottom: 0.2em;
+}
+
+.pokedex_input {
+  color: black;
+  background-color: aliceblue;
+  height: 1.5em;
+  border-radius: 10px 0 0 10px;
+  margin-top: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokedex_button {
+  cursor: pointer;
+  color: white;
+  background-color: red;
+  height: 1.95em;
+  border-radius: 0 10px 10px 0;
+  margin-top: 6em;
+}

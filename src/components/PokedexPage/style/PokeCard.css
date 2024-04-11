@@ -1,0 +1,132 @@
+.card {
+  cursor: pointer;
+  width: 100%;
+  max-width: 15em;
+  border: 0.5em solid #9b9a9ae7;
+  border-radius: 1em;
+  font-size: 0.9rem;
+  
+}
+
+.card_header {
+  width: 100%;
+  aspect-ratio: 2;
+  position: relative;
+  border-radius: 0.4em;
+  font-size: 0.7rem;
+}
+
+.fire {
+  background-color: orangered;
+}
+
+.grass {
+  background-color: green;
+}
+
+.water {
+  background-color: blue;
+}
+
+.ice {
+  background-color: aqua;
+}
+
+.dark {
+  background-color: black;
+}
+
+.fighting {
+  background-color: brown;
+}
+
+.flying {
+  background-color: blueviolet;
+}
+
+.bug {
+  background-color: lightgreen;
+}
+
+.normal {
+  background-color: bisque;
+}
+
+.poison {
+  background-color: violet;
+}
+
+.electric {
+  background-color:darkblue
+}
+
+.ground {
+  background-color: burlywood;
+}
+
+.fairy {
+  background-color: magenta;
+}
+
+.rock {
+  background-color: grey;
+}
+
+.ghost {
+  background-color: aliceblue;
+}
+
+.steel {
+  background-color: rgb(35, 48, 35);
+}
+
+.psychic {
+  background-color: yellow;
+}
+
+.dragon {
+  background-color: rgb(187, 37, 37);
+}
+
+.card_img {
+  position: absolute;
+  width: 55%;
+  top: 2em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card_principal {
+  margin-top: 3.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+.card_name {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-bottom: 0.2em;
+  list-style-type: none;
+}
+
+.card_description {
+  display: flex;
+  flex-direction:column-reverse;
+  text-align: left;
+  list-style-type: none;
+  font-style: oblique;
+  font-weight: 600;
+}
+
+.card_stat_number {
+  margin-right: 0.5em;
+}
+
+.card_icon {
+  height: 0.8em;
+  margin-right: 0.5em;
+}
+

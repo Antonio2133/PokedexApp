@@ -1,0 +1,35 @@
+#root {
+  max-width: 1290px;
+  margin-top: none;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+.listpoke-container {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.gap-page {
+  gap: 0.5em;
+}
+
+.gap-page li {
+  cursor: pointer;
+  padding: 0.5em;
+  color: white;
+  font-weight: 700;
+  background-color: red;
+  border-radius: 5px;
+  list-style-type: none;
+  &:hover {
+    filter: brightness(2);
+    color: black;
+  }
+}
+
+.gap-page .active-page {
+  background-color: blueviolet;
+}

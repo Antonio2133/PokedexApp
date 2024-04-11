@@ -1,0 +1,43 @@
+.home_container {
+  background-color: transparent;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.home_nav_image {
+  height: 7em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+h1 {
+  font-size: 3em;
+  color: rgb(0, 0, 0);
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  font-size: 2em;
+  color: black;
+  margin-left: 1em;
+}
+
+.home_msg {
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+  margin-bottom: 2em;
+}
+
+.home_footer_image{
+  display: flex;
+  flex-direction: row;
+  align-items: inherit;
+  height: 6.5em;
+  width: 90rem;
+  max-width: auto;
+  align-items: center;
+  margin-top: 8em;
+}
